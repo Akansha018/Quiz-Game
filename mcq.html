@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mcq quiz</title>
+    <link rel="stylesheet" href="./mcq.css" type="text/css">
+    <script src="./mcq.js"></script>
+</head>
+<body>
+    <div class="parent">
+        <div class="main" id="ff1">
+            <div class="questions" id="one">
+                <h1 id="title">Online Quiz System</h1>
+            </div>
+            <div class="questions" id="first">
+                <h2 id="qus">What does HTML stands for</h2>
+                <input type="radio" name="qus1" id="a1">(i): Hyper Text Markup Language<br>
+                <input type="radio" name="qus1" id="b1">(ii): Hper Text Markup Language  <br>
+                <input type="radio" name="qus1" id="c1">(iii): Hyper Text Makeup Language  <br>
+                <input type="radio" name="qus1" id="d1">(iv): Hyper Test Markup Language
+            </div>
+            <div class="questions" id="second">
+                <h2 id="qus">What does CSS stands for</h2>
+                <input type="radio" name="qus2" id="a2">(i): Computer Style Sheet<br>
+                <input type="radio" name="qus2" id="b2">(ii): Cascading Style Sheet <br>
+                <input type="radio" name="qus2" id="c2">(iii): Common Style Sheet <br>
+                <input type="radio" name="qus2" id="d2">(iv): Colorful Style Sheet
+            </div>
+            <div class="questions" id="third">
+                <h2 id="qus">What does <> signifies</h2>
+                <input type="radio" name="qus3" id="a3">(i): tag<br>
+                <input type="radio" name="qus3" id="b3">(ii): heading tag<br>
+                <input type="radio" name="qus3" id="c3">(iii): form element <br>
+                <input type="radio" name="qus3" id="d3">(iv): complete tag
+            </div>
+            <div class="questions" id="fourth">
+                <h2 id="qus">What does www stands for</h2>
+                <input type="radio" name="qus4" id="a4">(i): world website<br>
+                <input type="radio" name="qus4" id="b4">(ii): world wide website <br>
+                <input type="radio" name="qus4" id="c4">(iii): web world web <br>
+                <input type="radio" name="qus4" id="d4">(iv): word wide web
+            </div>
+            <div class="questions" id="fifth">
+                <h2 id="qus">Which of these is an form element</h2>
+                <input type="radio" name="qus5" id="a5">(i): legend<br>
+                <input type="radio" name="qus5" id="b5">(ii): table <br>
+                <input type="radio" name="qus5" id="c5">(iii): tr <br>
+                <input type="radio" name="qus5" id="d5">(iv): td
+            </div>
+            <div class="questions" id="results">
+                <h2 id="title">RESULT</h2>
+                <h1 class="res_box">Total question:<span class="txt1"> 5</span></h1>
+                <h1 class="res_box">Correct Answer :  <span class="txt" id="correct"></span></h1>
+                <h1 class="res_box">Wrong  Answer:  <span class="txt" id="wrong"></span></h1>
+            </div>
+        </div>
+        <div class="main">
+            <div class="next_button" id="button">
+                <input type="button" value="start" class=" button btn" onclick="solution()" id="btn">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
